@@ -8,7 +8,7 @@
     "name": "Douglas Neuroinformatics",
     "email": "support@douglasneuroinformatics.ca"
   },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "homepage": "https://github.com/DouglasNeuroInformatics/esbuild-plugin-native-modules/#readme",
   "repository": {
     "type": "git",
