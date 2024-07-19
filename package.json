@@ -4,10 +4,7 @@
   "version": "0.0.2",
   "packageManager": "pnpm@8.15.3",
   "description": "An esbuild plugin to enable loading native node modules",
-  "author": {
-    "name": "Douglas Neuroinformatics",
-    "email": "support@douglasneuroinformatics.ca"
-  },
+  "author": "Joshua Unrau",
   "license": "Apache-2.0",
   "homepage": "https://github.com/DouglasNeuroInformatics/esbuild-plugin-native-modules/#readme",
   "repository": {
@@ -19,19 +16,25 @@
   },
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "format": "prettier --write src",
-    "lint": "tsc -b jsconfig.json && eslint --fix src"
+    "lint": "tsc -b jsconfig.json && eslint --fix src",
+    "prepare": "husky"
   },
   "peerDependencies": {
     "esbuild": "0.x"
   },
   "devDependencies": {
     "@douglasneuroinformatics/eslint-config": "^4.0.1",
+    "@douglasneuroinformatics/prettier-config": "^0.0.1",
     "@types/node": "^20.11.25",
     "eslint": "^8.57.0",
+    "husky": "^9.1.1",
     "prettier": "^3.2.5",
     "typescript": "~5.3.3"
-  }
+  },
+  "prettier": "@douglasneuroinformatics/prettier-config"
 }
