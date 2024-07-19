@@ -30,14 +30,14 @@
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
-    "@douglasneuroinformatics/eslint-config": "^4.0.1",
+    "@douglasneuroinformatics/eslint-config": "^4.2.2",
     "@douglasneuroinformatics/prettier-config": "^0.0.1",
     "@douglasneuroinformatics/semantic-release": "^0.0.1",
     "@douglasneuroinformatics/tsconfig": "^1.0.0",
-    "@types/node": "^20.11.25",
+    "@types/node": "^20.14.11",
     "eslint": "^8.57.0",
     "husky": "^9.1.1",
-    "prettier": "^3.2.5",
+    "prettier": "^3.3.3",
     "typescript": "~5.5.3"
   },
   "commitlint": {
