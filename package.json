@@ -28,13 +28,26 @@
     "esbuild": "0.x"
   },
   "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
     "@douglasneuroinformatics/eslint-config": "^4.0.1",
     "@douglasneuroinformatics/prettier-config": "^0.0.1",
+    "@douglasneuroinformatics/semantic-release": "^0.0.1",
     "@types/node": "^20.11.25",
     "eslint": "^8.57.0",
     "husky": "^9.1.1",
     "prettier": "^3.2.5",
     "typescript": "~5.3.3"
   },
-  "prettier": "@douglasneuroinformatics/prettier-config"
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "prettier": "@douglasneuroinformatics/prettier-config",
+  "release": {
+    "extends": [
+      "@douglasneuroinformatics/semantic-release"
+    ]
+  }
 }
