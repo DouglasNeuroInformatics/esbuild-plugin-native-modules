@@ -6,10 +6,10 @@
   "description": "An esbuild plugin to enable loading native node modules",
   "author": "Joshua Unrau",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/DouglasNeuroInformatics/esbuild-plugin-native-modules/#readme",
+  "homepage": "https://github.com/DouglasNeuroInformatics/esbuild-plugin-native-modules#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DouglasNeuroInformatics/esbuild-plugin-native-modules/.git"
+    "url": "https://github.com/DouglasNeuroInformatics/esbuild-plugin-native-modules.git"
   },
   "bugs": {
     "url": "https://github.com/DouglasNeuroInformatics/esbuild-plugin-native-modules/issues"
