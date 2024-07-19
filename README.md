@@ -5,7 +5,7 @@
   </a>
   <h3 align="center">@douglasneuroinformatics/esbuild-plugin-native-modules</h3>
   <p align="center">
-    An esbuild plugin to bundle prisma binaries
+    An esbuild plugin to enable loading native node modules
   </p>
 </div>
 
