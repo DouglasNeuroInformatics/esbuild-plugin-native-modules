@@ -21,7 +21,7 @@
   ],
   "scripts": {
     "format": "prettier --write src",
-    "lint": "tsc -b jsconfig.json && eslint --fix src",
+    "lint": "tsc && eslint --fix src",
     "prepare": "husky"
   },
   "peerDependencies": {
@@ -33,11 +33,12 @@
     "@douglasneuroinformatics/eslint-config": "^4.0.1",
     "@douglasneuroinformatics/prettier-config": "^0.0.1",
     "@douglasneuroinformatics/semantic-release": "^0.0.1",
+    "@douglasneuroinformatics/tsconfig": "^1.0.0",
     "@types/node": "^20.11.25",
     "eslint": "^8.57.0",
     "husky": "^9.1.1",
     "prettier": "^3.2.5",
-    "typescript": "~5.3.3"
+    "typescript": "~5.5.3"
   },
   "commitlint": {
     "extends": [
